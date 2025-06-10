@@ -1,0 +1,1 @@
+This repo is for scripts I've made that helped solved issues I had.
