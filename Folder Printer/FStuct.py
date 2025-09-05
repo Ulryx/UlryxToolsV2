@@ -1,7 +1,7 @@
 import os
 
-# Force this to your actual project directory
-PROJECT_ROOT = os.path.abspath("E:/Github-Stuff/NuttFarms")
+# Root becomes the directory where the script is run
+PROJECT_ROOT = os.path.abspath(os.getcwd())
 
 IGNORED_FOLDERS = {
     'venv', 'node_modules', '__pycache__', '.git', '.idea', '.vscode',
